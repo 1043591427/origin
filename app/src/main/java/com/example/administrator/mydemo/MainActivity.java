@@ -28,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "按钮点击测试1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "按钮点击测试3", Toast.LENGTH_SHORT).show();
             }
         });
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "按钮点击测试2", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "按钮点击测试3", Toast.LENGTH_SHORT).show();
             }
         });
 
